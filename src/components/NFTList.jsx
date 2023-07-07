@@ -2,7 +2,7 @@ import NFTListItem from './NFTListItem';
 
 const NFTList = () => {
   return (
-    <div className="w-full grid grid-cols-4 gap-x-[20px] gap-y-[40px] mt-10">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-[20px] gap-y-[40px] mt-10">
       <NFTListItem imgSrc={'/images/claim-1.png'} />
       <NFTListItem imgSrc={'/images/claim-2.png'} />
       <NFTListItem imgSrc={'/images/claim-3.png'} />
