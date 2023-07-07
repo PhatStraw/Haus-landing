@@ -88,7 +88,7 @@ const Header = () => {
                 </span>
               </div>
             </div>
-            <button className="text-[15px] font-[700] px-[6rem] py-[1rem] bg-primary mt-8">
+            <button className="primary-btn mt-8 border-black after:bg-black before:bg-black">
               SHARE
             </button>
           </div>

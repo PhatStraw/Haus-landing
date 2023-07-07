@@ -13,7 +13,9 @@ const Layout = ({ children }) => {
 
       <main>{children}</main>
 
-      <footer>footer</footer>
+      <footer className="text-center w-full text-gray-500 py-10">
+        Copywright &copy; 2023 Haus Experiment - All Rights Reserved
+      </footer>
     </div>
   );
 };

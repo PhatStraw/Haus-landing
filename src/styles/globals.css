@@ -31,4 +31,27 @@ body {
   .nav-item {
     @apply uppercase font-secondary text-[1.5rem] text-white font-[700] cursor-pointer hover:text-primary;
   }
+
+  .primary-btn {
+    @apply text-[15px] font-[700] px-[6rem] py-[0.6rem] bg-primary border border-white relative;
+  }
+
+  .primary-btn::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: -5px;
+    right: -5px;
+  }
+  .primary-btn::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    bottom: -5px;
+    left: -5px;
+  }
 }
