@@ -1,10 +1,19 @@
 import StarIcon from '@/assets/icons/star';
 import Hamburger from 'hamburger-react';
 import Image from 'next/image';
+import MobileMenu from './MobileMenu';
+import { useState } from 'react';
 
 const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header>
+      {mobileMenuOpen && (
+        <MobileMenu
+          mobileMenuOpen={mobileMenuOpen}
+          setMobileMenuOpen={setMobileMenuOpen}
+        />
+      )}
       <div className="w-full bg-secondary overflow-hidden">
         <p className="scrolling-text italic font-[700] text-[16px] text-[#FFC007] font-secondary">
           ALWAYS REMEMBER REAL LIFE IS JUST A NIGHTMARE YOU WAKE UP FROM WHEN
@@ -32,7 +41,11 @@ const Header = () => {
         </ul>
 
         <div className="lg:hidden">
-          <Hamburger size={20} />
+          <Hamburger
+            size={20}
+            toggled={mobileMenuOpen}
+            toggle={setMobileMenuOpen}
+          />
         </div>
       </nav>
       <section aria-label="Nav Banner" className="w-full h-[768px] relative">

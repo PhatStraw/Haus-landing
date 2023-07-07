@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-secondary text-white font-primary;
+  @apply bg-secondary text-white font-primary relative;
 }
 
 .scrolling-text {
