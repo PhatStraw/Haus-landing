@@ -30,15 +30,8 @@ const Header = () => {
           <li className="nav-item">SHOP</li>
         </ul>
       </nav>
-      <section aria-label="Nav Banner" className="w-full h-[700px] relative">
-        <Image
-          src="/images/nav-banner.png"
-          alt="Nav banner"
-          fill
-          className="object-cover z-5"
-        />
-
-        <div className="w-[50%] h-[80%] z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-[10px]">
+      <section aria-label="Nav Banner" className="w-full h-[768px] relative">
+        <div className="w-[50%] inset-center z-10 flex flex-col gap-[10px]">
           <div className="w-full flex flex-col px-[34px] py-[24px] bg-[#292C2D] items-center justify-center">
             <div className="p-[12px] text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
               <StarIcon width={20} height={20} color="#000" />
@@ -95,8 +88,17 @@ const Header = () => {
                 </span>
               </div>
             </div>
+            <button className="text-[15px] font-[700] px-[6rem] py-[1rem] bg-primary mt-8">
+              SHARE
+            </button>
           </div>
         </div>
+        <Image
+          src="/images/nav-banner.png"
+          alt="Nav banner"
+          fill
+          className="object-cover z-5"
+        />
       </section>
     </header>
   );

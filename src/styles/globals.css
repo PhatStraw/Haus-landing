@@ -11,6 +11,13 @@ body {
   white-space: nowrap;
 }
 
+.inset-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
