@@ -1,3 +1,4 @@
+import StarIcon from '@/assets/icons/star';
 import Image from 'next/image';
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
         />
       </div>
       <nav className="w-full flex justify-between items-center p-4">
-        <Image src="/images/logo.svg" alt="logo" width={99} height={64} />
+        <Image src="/icons/logo.svg" alt="logo" width={99} height={64} />
 
         <ul className="flex items-center gap-[20px]">
           <li className="nav-item">HONOTARY</li>
@@ -29,6 +30,74 @@ const Header = () => {
           <li className="nav-item">SHOP</li>
         </ul>
       </nav>
+      <section aria-label="Nav Banner" className="w-full h-[700px] relative">
+        <Image
+          src="/images/nav-banner.png"
+          alt="Nav banner"
+          fill
+          className="object-cover z-5"
+        />
+
+        <div className="w-[50%] h-[80%] z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-[10px]">
+          <div className="w-full flex flex-col px-[34px] py-[24px] bg-[#292C2D] items-center justify-center">
+            <div className="p-[12px] text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
+              <StarIcon width={20} height={20} color="#000" />
+              ON THE LIST?
+              <StarIcon width={20} height={20} color="#000" />
+            </div>
+            <span className="font-[400] mt-4">
+              Claim your HNUS by sharing it on twitter
+            </span>
+            <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
+              <div className="flex w-full items-start gap-[2rem]">
+                <StarIcon width={18} height={18} color="#FD6E2C" />
+
+                <span className="font-[400] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col px-[24px] py-[24px] bg-[#292C2D] items-center justify-center">
+            <div className="p-[12px] text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
+              <StarIcon width={20} height={20} color="#000" />
+              NOT ON THE LIST?
+              <StarIcon width={20} height={20} color="#000" />
+            </div>
+            <span className="font-[400] mt-4">
+              Claim your HNUS by sharing it on twitter
+            </span>
+            <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
+              <div className="flex w-full items-start gap-[2rem]">
+                <StarIcon width={18} height={18} color="#FD6E2C" />
+
+                <span className="font-[400] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore
+                </span>
+              </div>
+              <div className="flex w-full items-start gap-[2rem]">
+                <StarIcon width={18} height={18} color="#FD6E2C" />
+
+                <span className="font-[400] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore
+                </span>
+              </div>
+              <div className="flex w-full items-start gap-[2rem]">
+                <StarIcon width={18} height={18} color="#FD6E2C" />
+
+                <span className="font-[400] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   );
 };
