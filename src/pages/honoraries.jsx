@@ -25,7 +25,7 @@ export default function Home() {
     <main className="w-full px-4 py-8 flex justify-center items-center flex-col">
       <section
         aria-label="Nav Banner"
-        className="w-full h-[768px] relative mb-10"
+        className="w-full h-[100vh] lg:h-[768px] relative mb-10"
       >
         <div className="w-[90%] lg:w-[50%] inset-center z-10 flex flex-col gap-[10px]">
           <div className="w-full flex flex-col px-[30px] md:px-[34px] py-[20px] md:py-[24px] bg-[#292C2D] items-center justify-center">
@@ -95,6 +95,18 @@ export default function Home() {
 
                 <span className="font-[400] text-left">
                   Posting tweets about your favorite people on this list.
+                </span>
+              </div>
+              <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
+                <Image
+                  src={HausStar}
+                  alt="haus star black"
+                  width={24}
+                  height={24}
+                />
+
+                <span className="font-[400] text-left">
+                  Must tag @hausexperiment in your tweet.
                 </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
