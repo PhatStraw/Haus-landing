@@ -28,9 +28,9 @@
 }
 
 body {
-  @apply  text-white font-primary relative w-[100vw] mx-auto;
-  background-image: url('/images/background.jpeg');
-  background-repeat: repeat;
+  @apply  text-white font-primary relative w-[100vw] mx-auto bg-secondary;
+  /* background-image: url('/images/background.jpeg');
+  background-repeat: repeat; */
 }
 
 .scrolling-text {
@@ -867,7 +867,7 @@ body {
 @media only screen and (min-width: 1400px) {
   body {
     width: 90%;
-    max-width: 1320px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   .hero {
