@@ -1,10 +1,28 @@
+import axios from 'axios';
 import StarIcon from '@/assets/icons/star';
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import Image from 'next/image';
 import TwitterLogo from '../../public/icons/twitter.svg';
 
 const NFTListItem = ({ imgSrc, title }) => {
   const [shareText, setShareText] = useState('SHARE');
+
+  const shareOnTwitter = useCallback(async () => {
+    const text = `@${title.replace(
+      /\s/g,
+      ''
+    )} for Haus Experiement. \n\nFollow instructions on hausepxeriment.com/honoraries to claim your honorary NFT 😊🌟`;
+
+    try {
+      window.open(
+        `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+        '_blank'
+      );
+    } catch (error) {
+      console.error('Error generating tweet intent:', error);
+    }
+  }, [title]);
+
   if (!title) return <div className="hidden lg:block" />;
   return (
     <div className="w-full flex flex-col items-center gap-[10px] grid-item">
@@ -24,6 +42,7 @@ const NFTListItem = ({ imgSrc, title }) => {
         className="primary-btn w-fit flex gap-[10px] items-center justify-center group"
         onMouseEnter={() => setShareText('TWEET')}
         onMouseLeave={() => setShareText('SHARE')}
+        onClick={shareOnTwitter}
       >
         <Image
           src={TwitterLogo}
