@@ -4,7 +4,7 @@ const { default: Head } = require('next/head');
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-[100vh]">
+    <div className="min-h-[100vh] w-full">
       <Head>
         <title>Haus Experiment</title>
       </Head>

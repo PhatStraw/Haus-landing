@@ -3,6 +3,9 @@ import Hamburger from 'hamburger-react';
 import Image from 'next/image';
 import MobileMenu from './MobileMenu';
 import { useState } from 'react';
+import { appRoutes } from '@/routes';
+import NavLink from './custom/NavLink';
+import Link from 'next/link';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,15 +32,26 @@ const Header = () => {
           className="object-cover"
         />
       </div>
-      <nav className="w-full flex justify-between items-center p-4">
-        <Image src="/icons/logo.svg" alt="logo" width={99} height={64} />
+      <nav
+        className="w-full flex justify-between items-center p-4 bg-[#0C0C0C] z-10"
+        id="navbar"
+      >
+        <Link href="/">
+          <Image src="/icons/logo.svg" alt="logo" width={99} height={64} />
+        </Link>
 
         <ul className="hidden lg:flex items-center gap-[20px]">
-          <li className="nav-item">HONOTARY</li>
-          <li className="nav-item">CREW</li>
-          <li className="nav-item">FEATURES</li>
-          <li className="nav-item">LOOKBOOK</li>
-          <li className="nav-item">SHOP</li>
+          {appRoutes.map((route) => {
+            return (
+              <NavLink
+                key={route.title}
+                href={route.path}
+                activeClassName="text-primary"
+              >
+                <li className="nav-item">{route.title}</li>
+              </NavLink>
+            );
+          })}
         </ul>
 
         <div className="lg:hidden">
@@ -57,15 +71,15 @@ const Header = () => {
               <StarIcon width={20} height={20} color="#000" />
             </div>
             <span className="font-[400] mt-4 text-center w-full">
-              Claim your HNUS by sharing it on twitter
+              Claim your 1/1 Haus NFT by sharing It on Twitter
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <StarIcon width={18} height={18} color="#FD6E2C" />
 
                 <span className="font-[400] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Click the share button and share on twitter. Our team will
+                  notice and reach out to you.
                 </span>
               </div>
             </div>
@@ -78,31 +92,30 @@ const Header = () => {
               <StarIcon width={20} height={20} color="#000" />
             </div>
             <span className="font-[400] mt-4 text-center">
-              Claim your HNUS by sharing it on twitter
+              Win a rare Haus NFTs, merch (hoodies, tees, stickers), and WL
+              today by spreading the word:
             </span>
-            <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
+            <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px] mb-6">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <StarIcon width={18} height={18} color="#FD6E2C" />
 
                 <span className="font-[400] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Posting tweets about your favorite people on this list.
                 </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <StarIcon width={18} height={18} color="#FD6E2C" />
 
                 <span className="font-[400] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Must use the share to Twitter link from this site.
                 </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <StarIcon width={18} height={18} color="#FD6E2C" />
 
                 <span className="font-[400] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Additional details will be released on our twitter soon. Make
+                  sure those alerts are on.
                 </span>
               </div>
             </div>
