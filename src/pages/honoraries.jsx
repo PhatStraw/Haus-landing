@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import StarIcon from '@/assets/icons/star';
 import NFTList from '@/components/NFTList';
+import HausStar from '../../public/icons/hausstar.svg';
+import HausStarBlack from '../../public/icons/hausstarblack.svg';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,17 +16,32 @@ export default function Home() {
       >
         <div className="w-[90%] lg:w-[50%] inset-center z-10 flex flex-col gap-[10px]">
           <div className="w-full flex flex-col px-[30px] md:px-[34px] py-[20px] md:py-[24px] bg-[#292C2D] items-center justify-center">
-            <div className="p-[12px] text-[20px] lg:text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
-              <StarIcon width={20} height={20} color="#000" />
+            <div className="p-[12px] text-[16px] lg:text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
+              <Image
+                src={HausStarBlack}
+                alt="haus star black"
+                width={24}
+                height={24}
+              />
               ON THE LIST?
-              <StarIcon width={20} height={20} color="#000" />
+              <Image
+                src={HausStarBlack}
+                alt="haus star black"
+                width={24}
+                height={24}
+              />
             </div>
             <span className="font-[400] mt-4 text-center w-full">
               Claim your 1/1 Haus NFT by sharing It on Twitter
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
-                <StarIcon width={18} height={18} color="#FD6E2C" />
+                <Image
+                  src={HausStar}
+                  alt="haus star black"
+                  width={24}
+                  height={24}
+                />
 
                 <span className="font-[400] text-center">
                   Click the share button and share on twitter. Our team will
@@ -35,10 +52,20 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-col px-[24px] py-[24px] bg-[#292C2D] items-center justify-center">
-            <div className="p-[12px] text-[20px] lg:text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
-              <StarIcon width={20} height={20} color="#000" />
+            <div className="p-[12px] text-[16px] lg:text-[38px] bg-primary flex items-center gap-[30px] font-[700]">
+              <Image
+                src={HausStarBlack}
+                alt="haus star black"
+                width={24}
+                height={24}
+              />
               NOT ON THE LIST?
-              <StarIcon width={20} height={20} color="#000" />
+              <Image
+                src={HausStarBlack}
+                alt="haus star black"
+                width={24}
+                height={24}
+              />
             </div>
             <span className="font-[400] mt-4 text-center">
               Win a rare Haus NFTs, merch (hoodies, tees, stickers), and WL
@@ -46,21 +73,36 @@ export default function Home() {
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px] mb-6">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
-                <StarIcon width={18} height={18} color="#FD6E2C" />
+                <Image
+                  src={HausStar}
+                  alt="haus star black"
+                  width={24}
+                  height={24}
+                />
 
                 <span className="font-[400] text-center">
                   Posting tweets about your favorite people on this list.
                 </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
-                <StarIcon width={18} height={18} color="#FD6E2C" />
+                <Image
+                  src={HausStar}
+                  alt="haus star black"
+                  width={24}
+                  height={24}
+                />
 
                 <span className="font-[400] text-center">
                   Must use the share to Twitter link from this site.
                 </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
-                <StarIcon width={18} height={18} color="#FD6E2C" />
+                <Image
+                  src={HausStar}
+                  alt="haus star black"
+                  width={24}
+                  height={24}
+                />
 
                 <span className="font-[400] text-center">
                   Additional details will be released on our twitter soon. Make

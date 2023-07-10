@@ -24,7 +24,7 @@ const Header = () => {
           NIGHTMARE YOU WAKE UP FROM WHEN YOU DIE. HAUS 2023. COMING SOON.
         </p>
       </div>
-      <div className="w-full h-[200px] lg:h-[400px] relative">
+      <div className="w-full h-[100px] md:h-[200px] lg:h-[400px] relative">
         <Image
           src="/images/header-banner.png"
           fill
@@ -70,12 +70,14 @@ const Header = () => {
           </div>
         </ul>
 
-        <div className="lg:hidden">
-          <Hamburger
-            size={20}
-            toggled={mobileMenuOpen}
-            toggle={setMobileMenuOpen}
-          />
+        <div className="lg:hidden bg-primary text-black rounded-[5px] w-8 h-8 flex items-center justify-center">
+          <div>
+            <Hamburger
+              size={16}
+              toggled={mobileMenuOpen}
+              toggle={setMobileMenuOpen}
+            />
+          </div>
         </div>
       </nav>
     </header>

@@ -2,6 +2,7 @@ import StarIcon from '@/assets/icons/star';
 import { useCallback, useState } from 'react';
 import Image from 'next/image';
 import TwitterLogo from '../../public/icons/twitter.svg';
+import HausStar from '../../public/icons/hausstar.svg';
 
 const NFTListItem = ({ imgSrc, title }) => {
   const [shareText, setShareText] = useState('SHARE');
@@ -33,9 +34,9 @@ const NFTListItem = ({ imgSrc, title }) => {
         className="honorary-image"
       />
       <div className="p-[10px] text-[20px] bg-white text-black flex items-center gap-[10px] font-[700] w-fit">
-        <StarIcon width={20} height={20} color="#FD6E2C" />
+        <Image src={HausStar} alt="haus star black" width={20} height={20} />
         {title}
-        <StarIcon width={20} height={20} color="#FD6E2C" />
+        <Image src={HausStar} alt="haus star black" width={20} height={20} />
       </div>
       <button
         className="primary-btn w-fit flex gap-[10px] items-center justify-center group"
@@ -48,7 +49,7 @@ const NFTListItem = ({ imgSrc, title }) => {
           alt="Twiiter logo"
           width={20}
           height={20}
-          className="hidden group-hover:inline-flex"
+          // className="hidden group-hover:inline-flex"
         />{' '}
         {shareText}
       </button>
