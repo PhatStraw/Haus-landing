@@ -37,7 +37,13 @@ const Header = () => {
         id="navbar"
       >
         <Link href="/">
-          <Image src="/icons/logo.svg" alt="logo" width={99} height={64} />
+          <Image
+            src="/icons/logo.svg"
+            alt="logo"
+            width={99}
+            height={64}
+            className="cursor-pointer"
+          />
         </Link>
 
         <ul className="hidden lg:flex items-center gap-[20px]">
@@ -122,9 +128,7 @@ const Header = () => {
                 </span>
               </div>
             </div>
-            <button className="primary-btn mt-8 border-black after:bg-black before:bg-black">
-              SHARE
-            </button>
+            <button className="primary-btn mt-8">SHARE</button>
           </div>
         </div>
         <Image
