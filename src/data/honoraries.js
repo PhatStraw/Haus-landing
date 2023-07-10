@@ -15,7 +15,7 @@ export const honoraries = [
     image: AdamApe,
   },
   {
-    title: 'Charlotte Feng',
+    title: 'Charlotte Fang',
     image: Charlotte,
   },
   {
