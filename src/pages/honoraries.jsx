@@ -4,10 +4,23 @@ import StarIcon from '@/assets/icons/star';
 import NFTList from '@/components/NFTList';
 import HausStar from '../../public/icons/hausstar.svg';
 import HausStarBlack from '../../public/icons/hausstarblack.svg';
+import { useCallback } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
+  const shareOnTwitter = useCallback(async () => {
+    const text = `Stand a chance to win rare Haus NFTs on hausexperiement.com @hausexperiement`;
+
+    try {
+      window.open(
+        `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+        '_blank'
+      );
+    } catch (error) {
+      console.error('Error generating tweet intent:', error);
+    }
+  }, []);
   return (
     <main className="w-full px-4 py-8 flex justify-center items-center flex-col">
       <section
@@ -110,7 +123,9 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <button className="primary-btn mt-8">SHARE</button>
+            <button className="primary-btn mt-8" onClick={shareOnTwitter}>
+              SHARE
+            </button>
           </div>
         </div>
         <Image
