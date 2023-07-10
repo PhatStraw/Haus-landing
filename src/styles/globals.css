@@ -29,6 +29,12 @@ body {
   }
 }
 
+@layer base {
+  * {
+    cursor: url('/images/hauslogo-18-resize.png'), auto;
+  }
+}
+
 @layer components {
   .nav-item {
     @apply uppercase font-secondary text-[1.5rem] text-white font-[700] cursor-pointer hover:text-primary italic;
