@@ -31,7 +31,7 @@ body {
 
 @layer components {
   .nav-item {
-    @apply uppercase font-secondary text-[1.5rem] text-white font-[700] cursor-pointer hover:text-primary;
+    @apply uppercase font-secondary text-[1.5rem] text-white font-[700] cursor-pointer hover:text-primary italic;
   }
 
   .primary-btn {

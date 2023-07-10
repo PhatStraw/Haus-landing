@@ -10,10 +10,6 @@ const NFTListItem = ({ imgSrc }) => {
         KSICRYPTO
         <StarIcon width={20} height={20} color="#FD6E2C" />
       </div>
-      <p className="text-center text-[13px] w-[75%]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
-      </p>
       <button className="primary-btn w-fit">SHARE</button>
     </div>
   );

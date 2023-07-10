@@ -13,9 +13,6 @@ export default function Home() {
         HONORARY CLAIM
         <StarIcon width={20} height={20} color="#000" />
       </div>
-      <span className="font-[400] mt-4">
-        Claim your HNUS by sharing it on twitter
-      </span>
 
       <NFTList />
     </main>
