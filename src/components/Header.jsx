@@ -52,6 +52,9 @@ const Header = () => {
               </NavLink>
             );
           })}
+          <div className="dropdown-content" id="myDropdown">
+            <a href="#">Coming Soon</a>
+          </div>
         </ul>
 
         <div className="lg:hidden">

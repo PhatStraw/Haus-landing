@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Image from 'next/image';
 export default function RandomCard(props) {
-  console.log(props);
   return (
     <div sx={{}} id="random-card">
       <div

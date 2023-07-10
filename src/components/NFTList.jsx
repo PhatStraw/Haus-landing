@@ -1,18 +1,18 @@
+import { honoraries } from '@/data/honoraries';
 import NFTListItem from './NFTListItem';
 
 const NFTList = () => {
   return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-[20px] gap-y-[40px] mt-10">
-      <NFTListItem imgSrc={'/images/claim-1.png'} />
-      <NFTListItem imgSrc={'/images/claim-2.png'} />
-      <NFTListItem imgSrc={'/images/claim-3.png'} />
-      <NFTListItem imgSrc={'/images/claim-4.png'} />
-      <NFTListItem imgSrc={'/images/claim-5.png'} />
-      <NFTListItem imgSrc={'/images/claim-6.png'} />
-      <NFTListItem imgSrc={'/images/claim-7.png'} />
-      <NFTListItem imgSrc={'/images/claim-8.png'} />
-      <NFTListItem imgSrc={'/images/claim-9.png'} />
-      <NFTListItem imgSrc={'/images/claim-10.png'} />
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-[20px] gap-y-[40px] mt-10 ">
+      {honoraries.map((honorary) => {
+        return (
+          <NFTListItem
+            key={honorary?.title}
+            imgSrc={honorary?.image?.src}
+            title={honorary?.title}
+          />
+        );
+      })}
     </div>
   );
 };
