@@ -56,7 +56,7 @@ export default function Home() {
                   height={24}
                 />
 
-                <span className="font-[400] text-center">
+                <span className="font-[400] text-left">
                   Click the share button and share on twitter. Our team will
                   notice and reach out to you.
                 </span>
@@ -93,7 +93,7 @@ export default function Home() {
                   height={24}
                 />
 
-                <span className="font-[400] text-center">
+                <span className="font-[400] text-left">
                   Posting tweets about your favorite people on this list.
                 </span>
               </div>
@@ -105,7 +105,7 @@ export default function Home() {
                   height={24}
                 />
 
-                <span className="font-[400] text-center">
+                <span className="font-[400] text-left">
                   Must use the share to Twitter link from this site.
                 </span>
               </div>
@@ -117,7 +117,7 @@ export default function Home() {
                   height={24}
                 />
 
-                <span className="font-[400] text-center">
+                <span className="font-[400] text-left">
                   Additional details will be released on our twitter soon. Make
                   sure those alerts are on.
                 </span>
