@@ -46,16 +46,23 @@ const Header = () => {
           />
         </Link>
 
-        <ul className="hidden lg:flex items-center gap-[20px]">
+        <ul className="hidden lg:flex items-center gap-[20px] z-10">
           {appRoutes.map((route) => {
             return (
-              <NavLink
-                key={route.title}
-                href={route.path}
-                activeClassName="text-primary"
-              >
-                <li className="nav-item">{route.title}</li>
-              </NavLink>
+              <div key={route.title} className="relative">
+                {route.comingSoon ? (
+                  <div key={route.title} className="relative group">
+                    <li className="nav-item">{route.title}</li>
+                    <div className="absolute hidden group-hover:inline-flex bg-white text-black font-[700] text-[1.5rem] rounded-[5px] w-max p-4">
+                      COMING SOON
+                    </div>
+                  </div>
+                ) : (
+                  <NavLink href={route.path} activeClassName="text-primary">
+                    <li className="nav-item">{route.title}</li>
+                  </NavLink>
+                )}
+              </div>
             );
           })}
           <div className="dropdown-content" id="myDropdown">
