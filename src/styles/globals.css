@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-secondary text-white font-primary relative w-[100vw] mx-auto;
+  @apply  text-white font-primary relative w-[100vw] mx-auto;
+  background-image: url('/images/background.jpeg');
+  background-repeat: repeat;
 }
 
 .scrolling-text {
