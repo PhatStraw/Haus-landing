@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: mono;
+  src: url("/font/MonumentExtended-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: regular;
+  src: url("/font/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: helveticab;
+  src: url("/font/Helvetica NeueLTW0693BlkExtObl.otf");
+}
+
+@font-face {
+  font-family: helver;
+  src: url("/font/Helvetica Regular.otf");
+}
+
+@font-face {
+  font-family: spaceg;
+  src: url("/font/SpaceGrotesk-Regular.otf");
+}
+
 body {
   @apply  text-white font-primary relative w-[100vw] mx-auto;
   background-image: url('/images/background.jpeg');
@@ -37,7 +62,8 @@ body {
 
 @layer components {
   .nav-item {
-    @apply uppercase font-secondary text-[1.5rem] text-white font-[700] cursor-pointer hover:text-primary italic;
+    font-family: helveticab;
+    @apply uppercase text-[1.3rem] md:text-[1.5rem] text-white font-[900] cursor-pointer hover:text-primary italic;
   }
 
   .primary-btn {
@@ -95,30 +121,6 @@ body {
 }
 
 /* Old code */
-@font-face {
-  font-family: mono;
-  src: url("/font/MonumentExtended-Ultrabold.otf");
-}
-
-@font-face {
-  font-family: regular;
-  src: url("/font/MonumentExtended-Regular.otf");
-}
-
-@font-face {
-  font-family: helveticab;
-  src: url("/font/Helvetica NeueLTW0693BlkExtObl.otf");
-}
-
-@font-face {
-  font-family: helver;
-  src: url("/font/Helvetica Regular.otf");
-}
-
-@font-face {
-  font-family: spaceg;
-  src: url("/font/SpaceGrotesk-Regular.otf");
-}
 
 .caution-two {
   display: none;
