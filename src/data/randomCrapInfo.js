@@ -1,9 +1,9 @@
 
 import haus1 from '../../public/images/haus1.png';
-import spring from '../../public/images/haus1.png';
-import bmx from '../../public/images/haus1.png';
-import skimask from '../../public/images/haus1.png';
-import papers from '../../public/images/haus1.png';
+import spring from '../../public/images/spring.jpg';
+import bmx from '../../public/images/bmx.jpg';
+import skimask from '../../public/images/skimask.jpg';
+import papers from '../../public/images/rpapers.jpeg';
 
 export const RandomCrapInfo = [
   {

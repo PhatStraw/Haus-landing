@@ -1,4 +1,3 @@
-import axios from 'axios';
 import StarIcon from '@/assets/icons/star';
 import { useCallback, useState } from 'react';
 import Image from 'next/image';

@@ -27,13 +27,24 @@ const MobileMenu = ({ mobileMenuOpen, setMobileMenuOpen }) => {
         <ul className="flex flex-col items-start gap-[20px] text-white px-6 py-6">
           {appRoutes.map((route) => {
             return (
-              <NavLink
-                href={route.path}
-                key={route.title}
-                activeClassName="text-primary"
-              >
-                <li className="nav-item">{route.title}</li>
-              </NavLink>
+              <div key={route.title} className="relative">
+                {route.comingSoon ? (
+                  <div key={route.title} className="relative group">
+                    <li className="nav-item">{route.title}</li>
+                    <div className="absolute hidden group-hover:inline-flex bg-white text-black font-[700] text-[1.5rem] rounded-[5px] w-max p-4 z-10">
+                      COMING SOON
+                    </div>
+                  </div>
+                ) : (
+                  <NavLink
+                    href={route.path}
+                    onClick={() => setMobileMenuOpen(false)}
+                    activeClassName="text-primary"
+                  >
+                    <li className="nav-item">{route.title}</li>
+                  </NavLink>
+                )}
+              </div>
             );
           })}
         </ul>

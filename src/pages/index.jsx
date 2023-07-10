@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import StarIcon from '@/assets/icons/star';
-import NFTList from '@/components/NFTList';
 import cautiontape from '../../public/images/cautiontape.jpg';
-import { useCallback, useEffect } from 'react';
 import { RandomCrapInfo } from '@/data/randomCrapInfo';
 import MeetFamCard from '@/components/MeetFamCard';
 import TeamSwipe from '@/components/TeamSwipe';
