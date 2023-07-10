@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <footer className="text-center w-full text-gray-500 py-6 md:py-10 px-4">
-        Copywright &copy; 2023 Haus Experiment - All Rights Reserved
+        Copyright &copy; 2023 Haus Experiment - All Rights Reserved
       </footer>
     </div>
   );
