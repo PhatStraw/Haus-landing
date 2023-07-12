@@ -4,24 +4,23 @@ import Image from 'next/image';
 import TwitterLogo from '../../public/icons/twitter.svg';
 import HausStar from '../../public/icons/hausstar.svg';
 
-const NFTListItem = ({ imgSrc, title }) => {
+const NFTListItem = ({ imgSrc, title, tweet }) => {
   const [shareText, setShareText] = useState('SHARE');
 
   const shareOnTwitter = useCallback(async () => {
-    const text = `@${title.replace(
-      /\s/g,
-      ''
-    )} for Haus Experiement. \n\nFollow instructions on hausepxeriment.com/honoraries to claim your honorary NFT 😊🌟`;
-
     try {
+      if (!tweet)
+        return alert(
+          'No tweet available for this honorary. Please try again later.'
+        );
       window.open(
-        `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+        `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweet)}`,
         '_blank'
       );
     } catch (error) {
       console.error('Error generating tweet intent:', error);
     }
-  }, [title]);
+  }, [tweet]);
 
   if (!title) return <div className="hidden lg:block" />;
   return (

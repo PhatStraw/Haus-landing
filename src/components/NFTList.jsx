@@ -10,6 +10,7 @@ const NFTList = () => {
             key={honorary?.title}
             imgSrc={honorary?.image?.src}
             title={honorary?.title}
+            tweet={honorary?.tweet}
           />
         );
       })}
