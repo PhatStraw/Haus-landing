@@ -2,12 +2,12 @@ import megan from '../../public/images/megan.png';
 import cheddy from '../../public/images/cheddy.png';
 import haxx from '../../public/images/haxx.png';
 import matrix from '../../public/images/matrix.png';
-import slick from '../../public/images/cheddy.png';
-import bender from '../../public/images/cheddy.png';
-import stiix from '../../public/images/cheddy.png';
-import chimney from '../../public/images/cheddy.png';
-import ghost from '../../public/images/cheddy.png';
-import bling from '../../public/images/cheddy.png';
+import slick from '../../public/images/claim-6.png';
+import bender from '../../public/images/claim-5.png';
+import stiix from '../../public/images/stiix.webp';
+import chimney from '../../public/images/chimney.webp';
+import ghost from '../../public/images/claim-7.png';
+import bling from '../../public/images/claim-4.png';
 export const teamDescriptions = [
   {
     name: 'Just Megan',
