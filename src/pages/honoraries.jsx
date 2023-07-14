@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const shareOnTwitter = useCallback(async () => {
-    const text = `Stand a chance to win rare Haus NFTs on hausexperiement.com @hausexperiement`;
+    const text = 'Im registering for a chance to get on the @hausexperiment friends & family list.\n\n https://www.hausexperiment.com/honoraries \n\n #hausexperiment 🍊♻️';
 
     try {
       window.open(
@@ -44,9 +44,6 @@ export default function Home() {
                 height={24}
               />
             </div>
-            <span className="font-[400] mt-4 text-center w-full">
-              DM us on Twitter to claim your 1/1 Haus NFT.
-            </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <Image
@@ -57,8 +54,7 @@ export default function Home() {
                 />
 
                 <span className="font-[400] text-left">
-                  Click the share button and share on twitter. Our team will
-                  notice and reach out to you.
+                  DM us on Twitter to claim your 1/1 Haus NFT.
                 </span>
               </div>
             </div>
@@ -84,14 +80,6 @@ export default function Home() {
             Win a rare Haus NFT, a spot on the Friends & Family list, or merch (hoodies, tees, stickers), today by sharing a tweet from below:
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px] mb-6">
-              <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
-                <Image
-                  src={HausStar}
-                  alt="haus star black"
-                  width={24}
-                  height={24}
-                />
-              </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <Image
                   src={HausStar}
