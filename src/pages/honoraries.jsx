@@ -45,7 +45,7 @@ export default function Home() {
               />
             </div>
             <span className="font-[400] mt-4 text-center w-full">
-              Claim your 1/1 Haus NFT by sharing It on Twitter
+              DM us on Twitter to claim your 1/1 Haus NFT.
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px]">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
@@ -81,8 +81,7 @@ export default function Home() {
               />
             </div>
             <span className="font-[400] mt-4 text-center">
-              Win a rare Haus NFT, merch (hoodies, tees, stickers), and
-              Whitelist today by spreading the word:
+            Win a rare Haus NFT, a spot on the Friends & Family list, or merch (hoodies, tees, stickers), today by sharing a tweet from below:
             </span>
             <div className="mt-6 flex w-full flex-col gap-[10px] text-[15px] mb-6">
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
@@ -92,10 +91,6 @@ export default function Home() {
                   width={24}
                   height={24}
                 />
-
-                <span className="font-[400] text-left">
-                  Posting tweets about your favorite people on this list.
-                </span>
               </div>
               <div className="flex w-full items-start gap-[0.5rem] md:gap-[2rem]">
                 <Image
