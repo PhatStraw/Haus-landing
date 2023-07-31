@@ -1,6 +1,6 @@
 export const lookbookData = [
     {
-        image: "/images/lookbook/1.png",
+        image: "/images/lookbook/ 1.png",
         palette: [
             "#171717",
             "#FFFFFF",
@@ -16,7 +16,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/20.png",
+        image: "/images/lookbook/ 20.png",
         palette: [
             "#171717",
             "#FFFFFF",
@@ -32,7 +32,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/2.png",
+        image: "/images/lookbook/ 2.png",
         palette: [
             "#BCB4C8",
             "#000000",
@@ -48,7 +48,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/3.png",
+        image: "/images/lookbook/ 3.png",
         palette: [
             "#FFFFFF",
             "#646E46",
@@ -63,7 +63,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/4.png",
+        image: "/images/lookbook/ 4.png",
         palette: [
             "#FFFFFF",
             "#646E46",
@@ -79,7 +79,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/5.png",
+        image: "/images/lookbook/ 5.png",
         palette: [
             "#1F4F36",
             "#BCBCBC",
@@ -95,7 +95,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/6.png",
+        image: "/images/lookbook/ 6.png",
         palette: [
             "#C9CCAF",
             "#000000",
@@ -110,7 +110,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/7.png",
+        image: "/images/lookbook/ 7.png",
         palette: [
             "#FFFFFF",
             "#48423F",
@@ -127,7 +127,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/8.png",
+        image: "/images/lookbook/ 8.png",
         palette: [
             "#FFFFFF",
             "#48423F",
@@ -143,7 +143,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/9.png",
+        image: "/images/lookbook/ 9.png",
         palette: [
             "#1D1D1D",
             "#A8976F",
@@ -158,7 +158,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/10.png",
+        image: "/images/lookbook/ 10.png",
         palette: [
             "#1D1D1D",
             "#CD403F",
@@ -174,7 +174,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/11.png",
+        image: "/images/lookbook/ 11.png",
         palette: [
             "#1D1D1D",
             "#CEF67C",
@@ -189,7 +189,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/12.png",
+        image: "/images/lookbook/ 12.png",
         palette: [
             "#1D1D1D",
             "#DCD9D1",
@@ -205,7 +205,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/13.png",
+        image: "/images/lookbook/ 13.png",
         palette: [
             "#AE9888",
             "#FFFFFF",
@@ -220,7 +220,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/14.png",
+        image: "/images/lookbook/ 14.png",
         palette: [
             "#FD6E2D",
             "#7D836B",
@@ -237,7 +237,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/15.png",
+        image: "/images/lookbook/ 15.png",
         palette: [
             "#BCB4C8",
             "#FFFFFF",
@@ -253,7 +253,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/16.png",
+        image: "/images/lookbook/ 16.png",
         palette: [
             "#1D1D1D",
             "#DCD9D1",
@@ -268,7 +268,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/17.png",
+        image: "/images/lookbook/ 17.png",
         palette: [
             "#1D1D1D",
             "#FFFFFF",
@@ -284,7 +284,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/18.png",
+        image: "/images/lookbook/ 18.png",
         palette: [
             "#1D1D1D",
             "#FFC405",
@@ -300,7 +300,7 @@ export const lookbookData = [
         ]
     },
     {
-        image: "/images/lookbook/19.png",
+        image: "/images/lookbook/ 19.png",
         palette: [
             "#FFFFFF",
             "#AE9888",
