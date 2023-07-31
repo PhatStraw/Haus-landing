@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         primary: '#FD6E2C',
         secondary: '#0C0C0C',
+        tertiary: '#212529'
       },
       fontFamily: {
         primary: ['Space Grotesk', ...defaultTheme.fontFamily.sans],

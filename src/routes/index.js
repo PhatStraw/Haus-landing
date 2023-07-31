@@ -17,7 +17,7 @@ export const appRoutes = [
   {
     path: '/lookbook',
     title: 'Lookbook',
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     path: '/shop',

@@ -33,6 +33,10 @@ body {
   background-repeat: repeat; */
 }
 
+.svg {
+  pointer-events: none;
+}
+
 .scrolling-text {
   animation: scroll-left 20s linear infinite;
   white-space: nowrap;
