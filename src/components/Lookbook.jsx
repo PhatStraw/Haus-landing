@@ -12,9 +12,9 @@ export default function Lookbook(){
                 <img src={lookbookData[index].image} alt={"lookbook"} className={"w-full sm:h-[360px] sm:w-[279px]"}/>
                 <div className={"flex flex-col gap-2"}>
                     <div className={"flex flex-row container max-w-[120px]"}>
-                    {lookbookData[index]?.palette?.map((color) => {
+                    {lookbookData[index]?.palette?.map((color, inedx) => {
                         return (
-                            <div style={{background: color}} className={"w-[24px] h-[24px]"}>
+                            <div style={{background: color}} className={"w-[24px] h-[24px]"} key={index}>
                         </div>
 
                         )
@@ -24,9 +24,9 @@ export default function Lookbook(){
                 <img src={"/images/fw.png"} alt={"fw"} width={169} height={51}/>
                 <img src={"/images/hausAlternate.png"} alt={"fw"} className={"w-[85px] h-[25px] lg:w-[169px] lg:h-[51px] absolute right-0 lg:left-0 lg:-translate-x-[150%] lg:translate-y-12"}/>
                 <div className={"flex flex-col gap-[10px] w-full"}>
-                {lookbookData[index]?.attributes?.map((attribute) => {
+                {lookbookData[index]?.attributes?.map((attribute, index) => {
                             return (
-                                <div className={"flex flex-row justify-between gap-[10px] w-full text-[13px]"}>
+                                <div className={"flex flex-row justify-between gap-[10px] w-full text-[13px]"} key={index}>
                                 <div className={"flex bg-primary items-center justify-center min-w-[56px] italic font-bold"}><p>{attribute.name}</p></div>
                                 <div className={"flex p-2 bg-tertiary border border-primary items-start w-full"}><p>{attribute.value}</p></div>
                                 </div>
@@ -42,7 +42,7 @@ export default function Lookbook(){
                 <div className={"grid grid-cols-5 sm:grid-cols-4 container h-full sm:max-h-[360px] gap-2"}>
                 {lookbookData.map((item, itemIndex) => {
                         return (
-                            <button className={`${index === itemIndex && "border border-primary"}`} onClick={() => setIndex(itemIndex)}><img src={item.image} alt={"lookbook image"} className={"w-full h-full"}/></button>
+                            <button key={itemIndex} className={`${index === itemIndex && "border border-primary"}`} onClick={() => setIndex(itemIndex)}><img src={item.image} alt={"lookbook image"} className={"w-full h-full"}/></button>
                         )
                 })
                 }
