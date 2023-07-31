@@ -38,7 +38,7 @@ export default function Lookbook(){
                 <img src={"/images/cautionTape2.png"} alt={"caution"} className={"w-full h-[13px] mt-1"}/>
             </div>
             </div>
-            <div className={"flex flex-col gap-4 w-full sm:container sm:max-w-[216px]"}>
+            <div className={"flex flex-col-reverse sm:flex-col gap-4 w-full sm:container sm:max-w-[216px]"}>
                 <div className={"grid grid-cols-5 sm:grid-cols-4 container h-full sm:max-h-[360px] gap-2"}>
                 {lookbookData.map((item, itemIndex) => {
                         return (
