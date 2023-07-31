@@ -48,9 +48,9 @@ export default function Lookbook(){
                 }
                 </div>
                 <div className={"flex flex-row items-center gap-4 w-full justify-center"}>
-                <button className={"flex items-center justify-center w-[30px] h-[30px]"} disabled={index === 0} onClick={() => setIndex(index-1)}><LeftArrow/></button>
+                <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 0} onClick={() => setIndex(index-1)}><LeftArrow/></button>
                 <p className={"font-sm"}>{index+1 + " of " + "20"}</p>
-                <button className={"flex items-center justify-center w-[30px] h-[30px]"} disabled={index === 19} onClick={() => setIndex(index+1)}><RightArrow/></button>
+                <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 19} onClick={() => setIndex(index+1)}><RightArrow/></button>
                 </div>
             </div>
         </div>
