@@ -10,7 +10,10 @@ export default function Lookbook(){
     return (
         <div className={"flex flex-col sm:flex-row w-full h-full justify-between gap-10"}>
             <div className={"flex flex-col w-full justify-between container sm:max-w-[279px] gap-8 relative"}>
+                <div className={"w-full h-auto md:h-[360px]"}>
                 <Image src={lookbookData[index].image} alt={"lookbook"} width={279} height={360} className={"w-full md:w-[279px] md:h-[360px] object-cover"}/>
+
+                </div>
                 <div className={"flex flex-col gap-2"}>
                     <div className={"flex flex-row container max-w-[120px]"}>
                     {lookbookData[index]?.palette?.map((color, index) => {
