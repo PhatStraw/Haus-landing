@@ -12,7 +12,7 @@ export const lookbookData = [
             {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
             {name: "Legs", value: "OG Logo Track Pant In Black"},
             {name: "Kicks", value: "Slides"},
-            {name: "Misc", value: "Skateboard"},
+            {name: "Items", value: "Skateboard"},
         ]
     },
     {
