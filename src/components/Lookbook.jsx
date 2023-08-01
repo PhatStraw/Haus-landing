@@ -2,6 +2,7 @@ import LeftArrow from "@/assets/icons/leftArrow"
 import RightArrow from "@/assets/icons/rightArrow"
 import { lookbookData } from "@/data/lookbook"
 import { useState } from "react"
+import Image from "next/image"
 
 export default function Lookbook(){
     const [index, setIndex] = useState(0)
@@ -12,7 +13,7 @@ export default function Lookbook(){
                 <img src={lookbookData[index].image} alt={"lookbook"} className={"w-full sm:h-[360px] sm:w-[279px]"}/>
                 <div className={"flex flex-col gap-2"}>
                     <div className={"flex flex-row container max-w-[120px]"}>
-                    {lookbookData[index]?.palette?.map((color, inedx) => {
+                    {lookbookData[index]?.palette?.map((color, index) => {
                         return (
                             <div style={{background: color}} className={"w-[24px] h-[24px]"} key={index}>
                         </div>
@@ -22,7 +23,7 @@ export default function Lookbook(){
                         }
                     </div>
                 <img src={"/images/fw.png"} alt={"fw"} width={169} height={51}/>
-                <img src={"/images/hausAlternate.png"} alt={"fw"} className={"w-[85px] h-[25px] lg:w-[169px] lg:h-[51px] absolute right-0 lg:left-0 lg:-translate-x-[150%] lg:translate-y-12"}/>
+                <img src={"/images/hausAlternate.png"} alt={"fw"} className={"w-[100px] h-[100px] lg:w-[125px] lg:h-[125px] absolute right-0 lg:left-0 lg:-translate-x-[150%] lg:translate-y-12"}/>
                 <div className={"flex flex-col gap-[10px] w-full"}>
                 {lookbookData[index]?.attributes?.map((attribute, index) => {
                             return (
