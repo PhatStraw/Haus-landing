@@ -10,7 +10,7 @@ export default function Lookbook(){
     return (
         <div className={"flex flex-col sm:flex-row w-full h-full justify-between gap-10"}>
             <div className={"flex flex-col w-full justify-between container sm:max-w-[279px] gap-8 relative"}>
-                <img src={lookbookData[index].image} alt={"lookbook"} className={"w-full sm:h-[360px] sm:w-[279px]"}/>
+                <Image src={lookbookData[index].image} alt={"lookbook"} width={279} height={360} className={"w-full md:w-[279px] md:h-[360px] object-cover"}/>
                 <div className={"flex flex-col gap-2"}>
                     <div className={"flex flex-row container max-w-[120px]"}>
                     {lookbookData[index]?.palette?.map((color, index) => {
@@ -43,7 +43,7 @@ export default function Lookbook(){
                 <div className={"grid grid-cols-5 sm:grid-cols-4 container h-full sm:max-h-[360px] gap-2"}>
                 {lookbookData.map((item, itemIndex) => {
                         return (
-                            <button key={itemIndex} className={`${index === itemIndex && "border border-primary"}`} onClick={() => setIndex(itemIndex)}><img src={item.image} alt={"lookbook image"} className={"w-full h-full"}/></button>
+                            <button key={itemIndex} className={`${index === itemIndex && "border border-primary"}`} onClick={() => setIndex(itemIndex)}><img src={item.image} alt={"lookbook image"} className={"w-full h-full object-cover"}/></button>
                         )
                 })
                 }
