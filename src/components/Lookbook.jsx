@@ -10,10 +10,15 @@ export default function Lookbook(){
     return (
         <div className={"flex flex-col sm:flex-row w-full h-full justify-between gap-10"}>
             <div className={"flex flex-col w-full justify-between container sm:max-w-[279px] gap-8 relative"}>
-                <div className={"w-full h-auto md:h-[360px]"}>
+                <div className={"flex flex-col gap-2 w-full h-auto md:h-[360px]"}>
                 <Image src={lookbookData[index].image} alt={"lookbook"} width={279} height={360} className={"w-full md:w-[279px] md:h-[360px] object-cover"}/>
-
+                <div className={"flex flex-row items-center gap-4 w-full justify-center sm:hidden"}>
+                <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 0} onClick={() => setIndex(index-1)}><LeftArrow/></button>
+                <p className={"font-sm"}>{index+1 + " of " + "20"}</p>
+                <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 19} onClick={() => setIndex(index+1)}><RightArrow/></button>
                 </div>
+                </div>
+
                 <div className={"flex flex-col gap-2"}>
                     <div className={"flex flex-row container max-w-[120px]"}>
                     {lookbookData[index]?.palette?.map((color, index) => {
@@ -51,7 +56,7 @@ export default function Lookbook(){
                 })
                 }
                 </div>
-                <div className={"flex flex-row items-center gap-4 w-full justify-center"}>
+                <div className={"sm:flex flex-row items-center gap-4 w-full justify-center hidden"}>
                 <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 0} onClick={() => setIndex(index-1)}><LeftArrow/></button>
                 <p className={"font-sm"}>{index+1 + " of " + "20"}</p>
                 <button className={"flex items-center justify-center w-[50px] h-[50px]"} disabled={index === 19} onClick={() => setIndex(index+1)}><RightArrow/></button>
