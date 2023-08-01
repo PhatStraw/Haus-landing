@@ -27,8 +27,8 @@ export const lookbookData = [
         attributes: [
             {name: "Torso", value: " I <3 NY Tee"},
             {name: "Legs", value: "Painted Open Season Pant"},
-            {name: "Kicks", value: "Chunky Sneakers In Cream"},
-            {name: "Add On", value: "Gundum"},
+            {name: "Kicks", value: "OG High Tops"},
+            {name: "Items", value: "Gundum"},
         ]
     },
     {
@@ -88,7 +88,7 @@ export const lookbookData = [
             "#FD6E2D"
         ],
         attributes: [
-            {name: "Xtras", value: "Skateboard"},
+            {name: "Items", value: "Skateboard"},
             {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
             {name: "Legs", value: "OG Logo Track Pant In Black"},
             {name: "Kicks", value: "Slides"},
@@ -125,7 +125,7 @@ export const lookbookData = [
             {name: "Torso", value: "Baller Hooded Sweatshirt In Mocha Brown"},
             {name: "Legs", value: "Black Cargo Pant"},
             {name: "Kicks", value: "OG High Tops"},
-            {name: "Misc", value: "Bong"},
+            {name: "Items", value: "Bong"},
 
         ]
     },
@@ -221,7 +221,7 @@ export const lookbookData = [
             {name: "Torso", value: "New Beginnings Tee In Orange"},
             {name: "Legs", value: "Navy Pant"},
             {name: "Kicks", value: "OG High Tops"},
-            {name: "Xtras", value: "Haus Ledger"},
+            {name: "Items", value: "Haus Ledger"},
         ]
     },
     {
