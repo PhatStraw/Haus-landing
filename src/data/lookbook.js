@@ -18,17 +18,17 @@ export const lookbookData = [
     {
         image: "/images/lookbook/20.png",
         palette: [
-            "#171717",
+            "#757AED",
+            "#1D1D1D",
             "#FFFFFF",
-            "#CFC5BD",
-            "#343434",
+            "#ED9B00",
             "#FD6E2D"
         ],
         attributes: [
-            {name: "Torso", value: " I <3 NY Tee"},
-            {name: "Legs", value: "Painted Open Season Pant"},
-            {name: "Kicks", value: "OG High Tops"},
-            {name: "Items", value: "Gundam"},
+            {name: "Head", value: "Discord Helmet"},
+            {name: "Legs", value: "Flagship Sweatpants In Orange"},
+            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Torso", value: "Razor Logo Hooded Sweatshirt In Midnight Black"},
         ]
     },
     {
@@ -41,9 +41,9 @@ export const lookbookData = [
             "#EEC50B"
         ],
         attributes: [
-            {name: "Head", value: "Nightmare Trucker In Black"},
-            {name: "Torso", value: "Frankchella 23 Tee In Black"},
-            {name: "Legs", value: "Sand Cargo Pant"},
+            {name: "Eyes", value: "Noun's DAO Shades In Red"},
+            {name: "Torso", value: "Logo Tee In Lilac"},
+            {name: "Legs", value: "Navy Pant"},
             {name: "Kicks", value: "Classic High Top"},
         ]
     },
@@ -65,17 +65,17 @@ export const lookbookData = [
     {
         image: "/images/lookbook/4.png",
         palette: [
-            "#757AED",
-            "#1D1D1D",
             "#FFFFFF",
-            "#ED9B00",
-            "#FD6E2D"
+            "#646E46",
+            "#9EA785",
+            "#343433",
+            "#A19383"
         ],
         attributes: [
-            {name: "Head", value: "Discord Helmet"},
-            {name: "Legs", value: "Flagship Sweatpants In Orange"},
-            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
-            {name: "Torso", value: "Razor Logo Hooded Sweatshirt In Midnight Black"},
+            {name: "Torso", value: " I <3 NY Tee"},
+            {name: "Legs", value: "Painted Open Season Pant"},
+            {name: "Kicks", value: "OG High Tops"},
+            {name: "Items", value: "Gundam"},
         ]
     },
     {
