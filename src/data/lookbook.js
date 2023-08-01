@@ -9,10 +9,10 @@ export const lookbookData = [
             "#FD6E2D"
         ],
         attributes: [
-            {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
-            {name: "Legs", value: "OG Logo Track Pant In Black"},
-            {name: "Slides", value: "Slides"},
-            {name: "Kicks", value: "Skateboard"},
+            {name: "Head", value: "OG Trucker In Camo"},
+            {name: "Torso", value: "Sex Sells Tee In Mocha Brown"},
+            {name: "Legs", value: "Tattered Work Pant In Sage Green"},
+            {name: "Kicks", value: "Slides"},
         ]
     },
     {
@@ -25,10 +25,10 @@ export const lookbookData = [
             "#FD6E2D"
         ],
         attributes: [
-            {name: "Head", value: "Discord Helmet"},
-            {name: "Torso", value: "Discord Logo Hooded Sweatshirt In Midnight Black"},
-            {name: "Legs", value: "Flagship Sweatpants In Orange"},
-            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Torso", value: " I <3 NY Tee"},
+            {name: "Legs", value: "Painted Open Season Pant"},
+            {name: "Kicks", value: "Chunky Sneakers In Cream"},
+            {name: "Add On", value: "Gundum"},
         ]
     },
     {
@@ -41,9 +41,9 @@ export const lookbookData = [
             "#EEC50B"
         ],
         attributes: [
-            {name: "Eyes", value: "Noun's DAO Shades In Red"},
-            {name: "Torso", value: "Logo Tee In Lilac"},
-            {name: "Legs", value: "Navy Pant"},
+            {name: "Head", value: "Nightmare Trucker In Black"},
+            {name: "Torso", value: "Frankchella 23 Tee In Black"},
+            {name: "Legs", value: "Sand Cargo Pant"},
             {name: "Kicks", value: "Classic High Top"},
         ]
     },
@@ -72,10 +72,10 @@ export const lookbookData = [
             "#A19383"
         ],
         attributes: [
-            {name: "Torso", value: "I <3 NY Tee"},
-            {name: "Legs", value: "Painted Open Season Pant"},
-            {name: "Kicks", value: "Chunky Sneakers In Cream"},
-            {name: "Misc", value: "Gundam"},
+            {name: "Head", value: "Discord Helmet"},
+            {name: "Legs", value: "Flagship Sweatpants In Orange"},
+            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Torso", value: "Razor Logo Hooded Sweatshirt In Midnight Black"},
         ]
     },
     {
@@ -88,10 +88,11 @@ export const lookbookData = [
             "#FD6E2D"
         ],
         attributes: [
-            {name: "Eyes", value: "Rude Specs"},
-            {name: "Torso", value: "New Beginnings Tee In Orange"},
-            {name: "Legs", value: "Bandana Pant In Green"},
-            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Xtras", value: "Skateboard"},
+            {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
+            {name: "Legs", value: "OG Logo Track Pant In Black"},
+            {name: "Kicks", value: "Slides"},
+
         ]
     },
     {
@@ -104,9 +105,10 @@ export const lookbookData = [
             "#A19383"
         ],
         attributes: [
-            {name: "Torso", value: "Logo Tee In Sage Green"},
-            {name: "Legs", value: "Blue Jeans"},
-            {name: "Kicks", value: "Chunky Sneakers In Cream"},
+            {name: "Eyes", value: "Noun's DAO Shades In Red"},
+            {name: "Torso", value: "Logo Tee In Lilac"},
+            {name: "Legs", value: "Navy Pant"},
+            {name: "Kicks", value: "Classic High Top"},
         ]
     },
     {
@@ -124,6 +126,7 @@ export const lookbookData = [
             {name: "Legs", value: "Black Cargo Pant"},
             {name: "Kicks", value: "OG High Tops"},
             {name: "Misc", value: "Bong"},
+
         ]
     },
     {
@@ -136,10 +139,9 @@ export const lookbookData = [
             "#AB1B19"
         ],
         attributes: [
-            {name: "Head", value: "Nightmare Trucker In Black"},
-            {name: "Torso", value: "Frankchella 23 Tee In Black"},
-            {name: "Legs", value: "Sand Cargo Pant"},
-            {name: "Kicks", value: "Classic High Top"},
+            {name: "Torso", value: "Logo Tee In Sage Green"},
+            {name: "Legs", value: " Blue Jeans"},
+            {name: "Kicks", value: "Chunky Sneakers In Cream"},
         ]
     },
     {
@@ -152,9 +154,10 @@ export const lookbookData = [
             "#CFC5BD"
         ],
         attributes: [
+            {name: "Head", value: "Reverse Type Trucker"},
             {name: "Torso", value: "Extremist Tee"},
             {name: "Legs", value: "Satchel Pant"},
-            {name: "Kicks", value: "Slides"},
+            {name: "Kicks", value: "Chunky Sneakers In Cream"},
         ]
     },
     {
@@ -167,10 +170,10 @@ export const lookbookData = [
             "#C9CCAF"
         ],
         attributes: [
-            {name: "Eyes", value: "Black Beatles"},
-            {name: "Torso", value: "23 Tee In Black"},
-            {name: "Legs", value: "Tattered Work Pant In Sage Green"},
-            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Eyes", value: "Blackout Shades"},
+            {name: "Torso", value: "Grift Shop Tee"},
+            {name: "Legs", value: "Sand Cargo Pant"},
+            {name: "Kicks", value: "Classic High Top"},
         ]
     },
     {
@@ -183,9 +186,9 @@ export const lookbookData = [
             "#AB1B19"
         ],
         attributes: [
-            {name: "Torso", value: "Stormy Daniels Tee In Black"},
-            {name: "Legs", value: "Bandana Pant In Green"},
-            {name: "Kicks", value: "OG High Tops"},
+            {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
+            {name: "Legs", value:  "OG Logo Track Pant In Orange"},
+            {name: "Kicks", value: "Slides"},
         ]
     },
     {
@@ -198,10 +201,10 @@ export const lookbookData = [
             "#080808"
         ],
         attributes: [
-            {name: "Head", value: "Haus Bucket Hat In Black"},
-            {name: "Torso", value: "Danger Hooded Sweatshirt In Black"},
-            {name: "Legs", value: "Black Cargo Pant"},
-            {name: "Kicks", value: "Classic High Top"},
+            {name: "Head", value: "Large Logo Beanie"},
+            {name: "Torso", value: "Logo Tee In Lilac"},
+            {name: "Legs", value: "OG Logo Track Pant In Black"},
+            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
         ]
     },
     {
@@ -214,9 +217,11 @@ export const lookbookData = [
             "#CDC0B1"
         ],
         attributes: [
-            {name: "Torso", value: "Baller Hooded Sweatshirt In Mocha Brown"},
-            {name: "Legs", value: "Blue Jeans"},
-            {name: "Kicks", value: "Chunky Sneakers In Cream"},
+            {name: "Head", value: "Baller Trucker In Orange"},
+            {name: "Torso", value: "New Beginnings Tee In Orange"},
+            {name: "Legs", value: "Navy Pant"},
+            {name: "Kicks", value: "OG High Tops"},
+            {name: "Xtras", value: "Haus Ledger"},
         ]
     },
     {
@@ -229,11 +234,9 @@ export const lookbookData = [
             "#545A44"
         ],
         attributes: [
-            {name: "Head", value: "Baller Trucker In Orange"},
-            {name: "Torso", value: "New Beginnings Tee In Orange"},
-            {name: "Legs", value: "Navy Pant"},
-            {name: "Kicks", value: "OG High Tops"},
-            {name: "Misc", value: "Haus Ledger"},
+            {name: "Head", value: "Baller Hooded Sweatshirt In Mocha Brown"},
+            {name: "Legs", value: "Blue Jeans"},
+            {name: "Kicks", value: "Chunky Sneakers In Cream"},
         ]
     },
     {
@@ -246,10 +249,10 @@ export const lookbookData = [
             "#1F4F36"
         ],
         attributes: [
-            {name: "Head", value: "Large Logo Beanie"},
-            {name: "Torso", value: "Logo Tee In Lilac"},
-            {name: "Legs", value: "OG Logo Track Pant In Black"},
-            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
+            {name: "Head", value: "Haus Bucket Hat In Black"},
+            {name: "Torso", value: "Danger Hooded Sweatshirt In Black"},
+            {name: "Legs", value: "Black Cargo Pant"},
+            {name: "Kicks", value: "Classic High Top"},
         ]
     },
     {
@@ -262,9 +265,9 @@ export const lookbookData = [
             "#080808"
         ],
         attributes: [
-            {name: "Torso", value: "Type Logo Hooded Sweatshirt In Orange"},
-            {name: "Legs", value: "OG Logo Track Pant In Orange"},
-            {name: "Kicks", value: "Slides"},
+            {name: "Torso", value: "Stormy Daniels Tee In Black"},
+            {name: "Legs", value: "Bandana Pant In Green"},
+            {name: "Kicks", value: "OG High Tops"},
         ]
     },
     {
@@ -277,10 +280,10 @@ export const lookbookData = [
             "#294D57"
         ],
         attributes: [
-            {name: "Eyes", value: "Blackout Shades"},
-            {name: "Torso", value: "Grift Shop Tee"},
-            {name: "Legs", value: "Sand Cargo Pant"},
-            {name: "Kicks", value: "Classic High Top"},
+            {name: "Eyes", value: "Black Beatles"},
+            {name: "Torso", value: "23 Tee In Black"},
+            {name: "Legs", value: "Tattered Work Pant In Sage Green"},
+            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
         ]
     },
     {
@@ -293,10 +296,9 @@ export const lookbookData = [
             "#A19383"
         ],
         attributes: [
-            {name: "Head", value: "Reverse Type Trucker"},
             {name: "Torso", value: "Extremist Tee"},
             {name: "Legs", value: "Satchel Pant"},
-            {name: "Kicks", value: "Chunky Sneakers In Cream"},
+            {name: "Kicks", value: "Slides"},
         ]
     },
     {
@@ -309,10 +311,10 @@ export const lookbookData = [
             "#C9CCAF"
         ],
         attributes: [
-            {name: "Head", value: "OG Trucker In Camo"},
-            {name: "Torso", value: "Sex Sells Tee In Mocha Brown"},
-            {name: "Legs", value: "Tattered Work Pant In Sage Green"},
-            {name: "Kicks", value: "Slides"},
+            {name: "Eyes", value: "Rude Specs"},
+            {name: "Torso", value: "New Beginnings Tee In Orange"},
+            {name: "Legs", value: "Bandana Pant In Green"},
+            {name: "Kicks", value: "Chunky Sneakers In Pine Green"},
         ]
     }
 ]
