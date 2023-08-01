@@ -65,11 +65,11 @@ export const lookbookData = [
     {
         image: "/images/lookbook/4.png",
         palette: [
+            "#757AED",
+            "#1D1D1D",
             "#FFFFFF",
-            "#646E46",
-            "#9EA785",
-            "#343433",
-            "#A19383"
+            "#ED9B00",
+            "#FD6E2D"
         ],
         attributes: [
             {name: "Head", value: "Discord Helmet"},
