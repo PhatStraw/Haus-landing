@@ -28,7 +28,7 @@ export const lookbookData = [
             {name: "Torso", value: " I <3 NY Tee"},
             {name: "Legs", value: "Painted Open Season Pant"},
             {name: "Kicks", value: "OG High Tops"},
-            {name: "Items", value: "Gundum"},
+            {name: "Items", value: "Gundam"},
         ]
     },
     {
